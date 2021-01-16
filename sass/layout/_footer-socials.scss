@@ -1,0 +1,22 @@
+.footer-socials {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer-socials__text {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--txt-color-secondary);
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-socials {
+    text-align: left;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+}
